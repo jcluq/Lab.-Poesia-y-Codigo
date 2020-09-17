@@ -29,13 +29,13 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     5. **Verificamos que python este instalado**
 
-             Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
+        Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
                     
-                python --version 
+            -    python --version 
 
-            deberia retornarnos un texto similar a esto:
+        deberia retornarnos un texto similar a esto:
 
-                Python 3.8.5
+            -    Python 3.8.5
 
 
 -   **UBUNTU**:

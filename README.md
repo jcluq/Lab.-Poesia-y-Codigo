@@ -9,8 +9,8 @@
 -   **WINDOWS**:
     1.   **Descargamos el archivo ejecutable para windows:**
 
-        -   Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
-        -   Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+        -   Windows-64Bits: [python-win64]https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
+        -   Windows-32Bits: [python-win32]https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
 
     2.  **Ejecutamos el archivo .exe**
 
@@ -22,7 +22,7 @@
 
     ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
-    5. **Verificamos que python este intalado**
+    5. **Verificamos que python este instalado**
 
         -   Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
                     
@@ -33,7 +33,7 @@
                 Python 3.8.5
 
 
--   UBUNTU:
+-   **UBUNTU**:
             
     1. Abrimos la terminal y ejecutamos el siguiente codigo:
 
@@ -50,22 +50,21 @@
             
 
 
-2) Instalar librerias
+### 2) Instalar librerias
 
 
 
-3) Instalar Visual Studio Code
-    Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
-    ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.
+### 3) Instalar Visual Studio Code:
 
-    Para instalar, iremos a la pagina de descarga de Visual Studio Code: https://code.visualstudio.com/download
-    y descargaremos el instalador correspondiente a nuestro sistema operativo.
+Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
+ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.
 
-    Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
+Para instalar, iremos a la pagina de descarga de Visual Studio Code: [link]https://code.visualstudio.com/download
+y descargaremos el instalador correspondiente a nuestro sistema operativo.
 
-//////
-1.5) Instalar la extension de Python
-//////
+Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
+
+
 
 
     La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 

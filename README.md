@@ -7,7 +7,7 @@ Preparaciones!
 
     Para cada sistema operativo, la instalacion de Python es diferente
 
-        WINDOWS:
+        -WINDOWS:
 
             -Descargamos el archivo ejecutable para windows:
 
@@ -34,17 +34,17 @@ Preparaciones!
                     Python 3.8.5
 
 
-        UBUNTU:
+        -UBUNTU:
             
-            Abrimos la terminal y ejecutamos el siguiente codigo:
+            -Abrimos la terminal y ejecutamos el siguiente codigo:
 
                 sudo apt install python3.8
 
-            Verificamos la instalacion escribiendo:
+            -Verificamos la instalacion escribiendo:
 
                  python --version 
 
-            Deberia retornarnos un texto similar a esto:
+            -Deberia retornarnos un texto similar a esto:
 
                 Python 3.8.5
 

@@ -10,9 +10,12 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     1.   **Descargamos el archivo ejecutable para windows:**
 
-           Windows-64Bits: [python-win64]https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
-        
-           Windows-32Bits: [python-win32]https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+
+           -    Windows-64Bits: [python-win64]https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
+
+           -    Windows-32Bits: [python-win32]https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe   
+
+
 
     2.  **Ejecutamos el archivo .exe**
 

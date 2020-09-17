@@ -11,7 +11,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
     1.   **Descargamos el archivo ejecutable para windows:**
 
 
-           -    Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
+           -    Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe (En caso de no estar seguro, usar este)
 
            -    Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe   
 
@@ -33,14 +33,14 @@ Para cada sistema operativo, la instalacion de Python es diferente:
                     
             -    python --version 
 
-        deberia retornarnos un texto similar a esto:
+        y oprimimos ENTER, deberia retornarnos un texto similar a esto:
 
             -    Python 3.8.5
 
 
 -   **UBUNTU**:
             
-    1. Abrimos la terminal y ejecutamos el siguiente codigo:
+    1. Abrimos la terminal, escribimos el siguiente codigo:
 
                 sudo apt install python3.8
 
@@ -55,8 +55,13 @@ Para cada sistema operativo, la instalacion de Python es diferente:
             
 
 
-### 2) Instalar librerias
+### 2) Instalar librerias:
 
+Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarrolladas por terceros para la correcta y eficiente ejecucion de los programas. Debemos instalar estas librerias:
+
+* Abrimos la terminal y escribimos el siguiente codigo:
+
+        pip install wikipedia spacy tweecy
 
 
 ### 3) Instalar Visual Studio Code:

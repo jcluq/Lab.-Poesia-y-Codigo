@@ -8,12 +8,12 @@
 
 > WINDOWS:
 
--Descargamos el archivo ejecutable para windows:
+-   Descargamos el archivo ejecutable para windows:
 
-- Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
-- Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+-   Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
+-   Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
 
--Ejecutamos el archivo .exe 
+-   Ejecutamos el archivo .exe 
 
 Nos aseguramos de agregar python a PATH:
 

@@ -16,11 +16,11 @@
 
     3.   Nos aseguramos de agregar python a PATH
 
-        ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
+    ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
     4.   Al finalizar la instalacion, desactivamos la restriccion de longitud de los path
 
-        ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
+    ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
     5. Verificamos que python este intalado
 

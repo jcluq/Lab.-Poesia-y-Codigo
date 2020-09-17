@@ -1,12 +1,12 @@
-#Preparaciones!
+# Preparaciones!
 
 
 
 1) Instalar Python 3.8.5
 
-Para cada sistema operativo, la instalacion de Python es diferente:
+    Para cada sistema operativo, la instalacion de Python es diferente:
 
->WINDOWS:
+> WINDOWS:
 
 -Descargamos el archivo ejecutable para windows:
 

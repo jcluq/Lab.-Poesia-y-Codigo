@@ -2,7 +2,7 @@
 
 
 
-1) Instalar Python 3.8.5
+### 1) Instalar Python 3.8.5
 
     Para cada sistema operativo, la instalacion de Python es diferente:
 
@@ -18,8 +18,9 @@
 
         ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
-Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
-https://i.stack.imgur.com/r6XEh.jpg
+    -   Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
+
+        ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
 -Verificamos que python este intalado
 

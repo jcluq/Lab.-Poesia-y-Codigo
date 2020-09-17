@@ -6,7 +6,7 @@
 
     Para cada sistema operativo, la instalacion de Python es diferente:
 
-##### -   WINDOWS:
+#####   -WINDOWS:
 ######    1.   Descargamos el archivo ejecutable para windows:
 
         -   Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
@@ -16,11 +16,11 @@
 
 ######    3.   Nos aseguramos de agregar python a PATH
 
-    ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
+![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
 ######    4.   Al finalizar la instalacion, desactivamos la restriccion de longitud de los path
 
-    ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
+![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
 ######    5. Verificamos que python este intalado
 

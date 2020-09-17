@@ -33,17 +33,17 @@
                 Python 3.8.5
 
 
-        >UBUNTU:
+-   UBUNTU:
             
-            -Abrimos la terminal y ejecutamos el siguiente codigo:
+    1. Abrimos la terminal y ejecutamos el siguiente codigo:
 
                 sudo apt install python3.8
 
-            -Verificamos la instalacion escribiendo:
+    2. Verificamos la instalacion escribiendo:
 
                  python --version 
 
-            -Deberia retornarnos un texto similar a esto:
+    3. Deberia retornarnos un texto similar a esto:
 
                 Python 3.8.5
 

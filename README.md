@@ -26,11 +26,11 @@
 
         -   Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
                     
-            python --version 
+                python --version 
 
-deberia retornarnos un texto similar a esto:
+            deberia retornarnos un texto similar a esto:
 
-     Python 3.8.5
+                Python 3.8.5
 
 
         >UBUNTU:

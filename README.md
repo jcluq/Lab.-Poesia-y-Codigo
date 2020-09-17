@@ -14,11 +14,11 @@
 
     2.   Ejecutamos el archivo .exe 
 
-    3.   Nos aseguramos de agregar python a PATH:
+    3.   Nos aseguramos de agregar python a PATH
 
         ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
-    4.   Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
+    4.   Al finalizar la instalacion, desactivamos la restriccion de longitud de los path
 
         ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
@@ -26,7 +26,7 @@
 
         -   Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
                     
-python --version 
+            python --version 
 
 deberia retornarnos un texto similar a esto:
 

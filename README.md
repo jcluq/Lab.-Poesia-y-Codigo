@@ -59,7 +59,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
 
 
-### 3) Instalar Visual Studio Code:
+### 3) Instalar Visual Studio Code
 
     Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
     ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.

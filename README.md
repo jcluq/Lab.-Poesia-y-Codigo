@@ -4,34 +4,34 @@
 
 1) Instalar Python 3.8.5
 
-    Para cada sistema operativo, la instalacion de Python es diferente:
+Para cada sistema operativo, la instalacion de Python es diferente:
 
-        >WINDOWS:
+>WINDOWS:
 
-            -Descargamos el archivo ejecutable para windows:
+-Descargamos el archivo ejecutable para windows:
 
-                - Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
-                - Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+- Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe
+- Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
 
-            -Ejecutamos el archivo .exe 
+-Ejecutamos el archivo .exe 
 
-                Nos aseguramos de agregar python a PATH:
-                ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-                ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
+Nos aseguramos de agregar python a PATH:
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
-                Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
-                https://i.stack.imgur.com/r6XEh.jpg
+Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
+https://i.stack.imgur.com/r6XEh.jpg
 
-            -Verificamos que python este intalado
+-Verificamos que python este intalado
 
-                Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola.
-                En la consola escribimos: 
+Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola.
+En la consola escribimos: 
                     
-                    python --version 
+python --version 
 
-                deberia retornarnos un texto similar a esto:
+deberia retornarnos un texto similar a esto:
 
-                    Python 3.8.5
+     Python 3.8.5
 
 
         >UBUNTU:

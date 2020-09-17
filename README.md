@@ -24,7 +24,7 @@
 
     5. Verificamos que python este intalado
 
-        -   Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
+            Vamos al menu de Windows y tecleamos "cmd" + enter para abrir la consola. En la consola escribimos: 
                     
                 python --version 
 

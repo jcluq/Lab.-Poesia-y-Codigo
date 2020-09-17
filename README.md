@@ -17,7 +17,7 @@ Preparaciones!
             -Ejecutamos el archivo .exe 
 
                 Nos aseguramos de agregar python a PATH:
-                ![Image of PATH](https://octodex.github.com/images/yaktocat.png)https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png
+                ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
                 
                 Al finalizar la instalacion, desactivamos la restriccion de longitud de los path:
                 https://i.stack.imgur.com/r6XEh.jpg

@@ -59,29 +59,29 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
 
 
-### 3) Instalar Visual Studio Code
+### 3) Instalar Visual Studio Code:
 
-    Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
-    ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.
+Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
+ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.
 
-    Para instalar, iremos a la pagina de descarga de Visual Studio Code: https://code.visualstudio.com/download
-    y descargaremos el instalador correspondiente a nuestro sistema operativo.
+Para instalar, iremos a la pagina de descarga de Visual Studio Code: https://code.visualstudio.com/download
+y descargaremos el instalador correspondiente a nuestro sistema operativo.
 
-    Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
-
-
-
-
-    La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
-    de crear y leer codigo.
-
-    Para instalar, haremos click en el boton de extensiones en la barra de navegacion de la parte izquierda.
+Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
 
 
 
-    ****imagen barra******
 
-    Y buscaremos la extension Python, usualmente aparece entra las populares.
-    En caso de no aparecer, buscarla manualmente
+La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
+de crear y leer codigo.
 
-    Hacemos click en instalar y listo.
+Para instalar, haremos click en el boton de extensiones en la barra de navegacion de la parte izquierda.
+
+
+
+****imagen barra******
+
+Y buscaremos la extension Python, usualmente aparece entra las populares.
+En caso de no aparecer, buscarla manualmente
+
+Hacemos click en instalar y listo.

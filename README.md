@@ -4,6 +4,10 @@
 
 ### 1) Instalar Python 3.8.5
 
+
+<sub> Si ya tienes python 3 instalado en tu equipo, puedes saltar este paso </sub>
+
+
 Para cada sistema operativo, la instalacion de Python es diferente:
 
 -   **WINDOWS**:
@@ -31,11 +35,11 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
         Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola. En la consola escribimos: 
                     
-            -    python --version 
+                python --version 
 
         y oprimimos ENTER, deberia retornarnos un texto similar a esto:
 
-            -    Python 3.8.5
+                Python 3.8.5
 
 
 -   **UBUNTU**:

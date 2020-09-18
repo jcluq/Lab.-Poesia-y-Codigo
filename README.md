@@ -45,16 +45,16 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
 ### 3) <a name="verificar">Verificamos la instalacion</a>
 
-    En la terminal, escribimos:
+   En la terminal, escribimos:
     
-                python --version
+            python --version
 
-    Y debe retornarnos
+   Y debe retornarnos
 
-                python 3.8.5
+            python 3.8.5
 
     
-!       [Verificacion consola](https://i.ibb.co/JFnF49W/verificar-python-windows.png)
+![Verificacion consola](https://i.ibb.co/JFnF49W/verificar-python-windows.png)
 
 
 ### 2)  <a name="librerias">Instalar librerias:</a>

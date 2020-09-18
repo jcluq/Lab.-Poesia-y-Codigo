@@ -4,7 +4,7 @@
 
 ### 1) Instalar Python 3.8.5
 
-<sub> Si ya tienes python 3 instalado en tu equipo, puedes saltar este paso </sub>
+ *Si ya tienes python 3 instalado en tu equipo, puedes saltar este paso e instalar las [link librerias](#librerias)
 
 
 Para cada sistema operativo, la instalacion de Python es diferente:
@@ -43,7 +43,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     
 
-### <a name="verificar">Verificamos la instalacion</a>
+### 3) <a name="verificar">Verificamos la instalacion</a>
 
    En la terminal, escribimos:
     
@@ -57,7 +57,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 ![Verificacion consola](https://i.ibb.co/JFnF49W/verificar-python-windows.png)
 
 
-### 2) Instalar librerias:
+### 2)  <a name="librerias">Instalar librerias:</a>
 
 Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarrolladas por terceros para la correcta y eficiente ejecucion de los programas. Debemos instalar estas librerias:
 

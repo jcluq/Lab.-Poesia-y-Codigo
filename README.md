@@ -4,7 +4,6 @@
 
 ### 1) Instalar Python 3.8.5
 
-
 <sub> Si ya tienes python 3 instalado en tu equipo, puedes saltar este paso </sub>
 
 
@@ -33,13 +32,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     5. **Verificamos que python este instalado**
 
-        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola. En la consola escribimos: 
-                    
-                python --version 
-
-        y oprimimos ENTER, deberia retornarnos un texto similar a esto:
-
-                Python 3.8.5
+        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link text](#verificar)verificar la instalacion. 
 
 
 -   **UBUNTU**:
@@ -48,13 +41,13 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
                 sudo apt install python3.8
 
-    2. Verificamos la instalacion escribiendo:
+    
 
-                 python --version 
+**<a name="verificar">Verificamos la instalacion</a>**
 
-    3. Deberia retornarnos un texto similar a esto:
+    Abrimos la consola: 
 
-                Python 3.8.5
+        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola. En la consola escribimos: 
 
             
 

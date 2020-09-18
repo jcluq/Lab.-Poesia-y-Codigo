@@ -49,7 +49,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
     
             python --version
 
-    Y debe retornarnos
+   Y debe retornarnos
 
             python 3.8.5
 

@@ -54,7 +54,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
             python 3.8.5
 
     
-![Verificacion consola](https://i.stack.imgur.com/r6XEh.jpg)
+![Verificacion consola](https://ibb.co/LhShW3D)
 
 
 ### 2) Instalar librerias:

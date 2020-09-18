@@ -65,7 +65,7 @@ Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarr
 
 Al ejecutar este comando, una serie de confirmaciones apareceran en la consola, instalando las librerias. Cuando la linea de comando vuelva a mostrar nuestra linea de usuario, habra finalizado y ya tendremos las librerias instaladas.
 
-<sub>En caso de que exista algun tipo de error  (Texto Color Rojo) tomar pantallaso del inicio del texto rojo. Lo solucionaremos en su debido tiempo!</sub>
+<sub>!!!  En caso de que exista algun tipo de error  (Texto Color Rojo) tomar pantallaso del inicio del texto rojo. Lo solucionaremos en su debido tiempo!</sub>
 
 ### 3) Instalar Visual Studio Code:
 

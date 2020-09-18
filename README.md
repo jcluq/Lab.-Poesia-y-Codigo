@@ -32,7 +32,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     5. **Verificamos que python este instalado**
 
-        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link text](#verificar)verificar la instalacion. 
+        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
 
 
 -   **UBUNTU**:
@@ -43,13 +43,18 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     
 
-**<a name="verificar">Verificamos la instalacion</a>**
+### <a name="verificar">Verificamos la instalacion</a>
 
-    Abrimos la consola: 
+   En la terminal, escribimos:
+    
+            python --version
 
-        Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola. En la consola escribimos: 
+    Y debe retornarnos
 
-            
+            python 3.8.5
+
+    
+![Verificacion consola](https://i.stack.imgur.com/r6XEh.jpg)
 
 
 ### 2) Instalar librerias:

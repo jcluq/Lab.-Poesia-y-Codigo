@@ -43,7 +43,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     
 
-### 3) <a name="verificar">Verificamos la instalacion</a>
+### 2) <a name="verificar">Verificamos la instalacion</a>
 
    En la terminal, escribimos:
     
@@ -56,10 +56,10 @@ Para cada sistema operativo, la instalacion de Python es diferente:
     
 <p align="center">
   <img src=https://i.ibb.co/JFnF49W/verificar-python-windows.png>
-</p>]()
+</p>
 
 
-### 2)  <a name="librerias">Instalar librerias:</a>
+### 3)  <a name="librerias">Instalar librerias:</a>
 
 Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarrolladas por terceros para la correcta y eficiente ejecucion de los programas. Debemos instalar estas librerias:
 
@@ -71,7 +71,9 @@ Al ejecutar este comando, una serie de confirmaciones apareceran en la consola, 
 
 <sub>!!!  En caso de que exista algun tipo de error  (Texto Color Rojo) tomar pantallaso del inicio del texto rojo. Lo solucionaremos a su debido tiempo!</sub>
 
-### 3) Instalar Visual Studio Code:
+### 4) Instalar Visual Studio Code:
+
+ *Si ya tienes un editor de codigo, puedes saltarte este paso.
 
 Este editor de texto tiene extensiones que nos resultaran muy útiles a la hora de programar con python, 
 ademas de una consola integrada que nos permitira ver el log del output de nuestro codigo.
@@ -82,7 +84,7 @@ y descargaremos el instalador correspondiente a nuestro sistema operativo.
 Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
 
 
-
+#### Extension de Python para VS
 
 La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
 de crear y leer codigo.

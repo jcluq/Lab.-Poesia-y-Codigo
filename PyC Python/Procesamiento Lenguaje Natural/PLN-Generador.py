@@ -15,6 +15,9 @@
 
 import spacy   #importamos spacy
 import random  #importamos random 
+from spacy.tokens import Doc
+from spacy.vocab import Vocab
+
 
     # función auxiliar para abrir un documento .txt y leer el texto contenido en este
 def leer_texto(texto):
@@ -23,15 +26,16 @@ def leer_texto(texto):
         return text.read()
 
     #creamos nuestro <procesador> con la funcion spacy.load y pasamos el nombre de nuestro corpus como parametro, !!!!procesador es un metodo!!!!!
-procesador = spacy.load('es_core_news_lg')
+#procesador = spacy.load('es_core_news_lg')
 
     #usamos el metodo leer_texto(), y asignamos el nombre del archivo que deseamos procesar, 
     #el string resultante lo guardamos en la variable <texto>
 
-texto = leer_texto("Sirena.txt")    
-
+#texto = leer_texto("Sirena.txt")    
     #usamos nuestro procesador y le asignamos el texto 
-texto_procesado = procesador(texto)     
+texto_procesado = Doc(Vocab()).from_disk("texto_procesado")    
+#texto_procesado.to_disk("texto_procesado")
+##procesador.to_disk("procesador")
 
     #Ahora tenemos un objeto llamado texto_procesado, el cual le ha asignado a cada palabra del texto una [tokenizacion]
     #Podemos valernos de una palabra aleatoria incluida en el tipo [tag] de cada token.

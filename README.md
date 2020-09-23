@@ -124,7 +124,7 @@ Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarr
 
 * Abrimos la terminal y escribimos el siguiente codigo:
 
-        pip install wikipedia spacy tweecy
+        pip install wikipedia spacy tweepy
 
 Al ejecutar este comando, una serie de confirmaciones apareceran en la consola, instalando las librerias. Cuando la linea de comando vuelva a mostrar nuestra linea de usuario, habra finalizado y ya tendremos las librerias instaladas.
 

@@ -1,7 +1,7 @@
 ####################Tutorial de Python#######################
 
 ###En python, comentamos usando un numeral o hash antes del texto que deseamos comentar
-###Todo lo comentado de esta manera en este programa es texto
+###Todo lo comentado de esta manera no correra en el programa. 
 
 
 """
@@ -88,12 +88,74 @@ respuesta = (numero is 10) #tambien podemos guardar el resultado de las operacio
 print(respuesta)
 """
 
-################ STRINGS ###########
+################ STRINGS ###################################################
 
 ### La palabra string traduce cuerda, en este caso significa cuerda de caracteres.
 
 ### Podemos sumar los strings
 
+"""
 a = "este es un string"
 b = " este es otro string"
 print(a+b)
+"""
+
+### Otra forma de sumar variables en strings!
+
+"""
+a= "yo tambien soy un String"
+b= "yo igual"
+print(f"Yo soy un String, {a} y {b}")
+"""
+
+### Los strings funcionan similar a las listas! (¿Que es una lista?)
+
+"""
+a = "Esto es un String" #Nuestro String original
+b = a[0] #aqui asignamos a la variable <b> el primer caracter de a, es decir "E"
+c = a[5:10] # tambien podemos establecer substrings , en este caso, se imprimiran los caracteres entre 5 y 10
+
+print(a)
+print(b)
+print(c)
+"""
+
+### Metodos utiles e importantes para Strings!!! (Que es un metodo???)
+
+"""
+a = "YO soy el ejemplo, osea un String"
+
+print(len(a)) # len(String) nos sirve para conocer la longitud de un String
+print(a.upper()) # .upper() retorna el string en mayusculas
+print(a.lower())   #.lower() retorna el string en minusculas
+print(a.capitalize()) #.capitalize() retorna el primer caracter en mayuscula y el resto en minusculas. 
+print(a.index("el")) #index(subString) Retorna la primera posicion encontrada del subString 
+"""
+
+
+### split(String)
+### split() separa un String. Utiliza un string para definir las posiciones de corrte
+### y retorna una lista con estas frases.
+
+
+"""
+a = "Soy una frase. Yo tambien soy una frase." # nuestra frase
+b = a.split(".")
+print(b)
+
+"""
+
+##### Listas ################################################################################# 
+
+### Las listas son objetos de python que nos sirven para guardar multiples objetos dentro de ellas.
+
+a = 3  
+b = "String"
+lista = [a,b,8,"palabra",True] #En las listas podemos guardar diferentes tipos de datos y variables, en diferentes combinaciones.
+print(lista) #podemos imprimir toda la lista
+
+print(lista[0]) #tambien podemos seleccionar un solo elemento de la lista
+print(lista[2:]) #podemos cortar los elementos de la lista, en este caso [2:] significa "Todos los elementos de la lista despues de la posicion 2"
+print(lista[1:4]) #tambien podemos definir , en este caso [1:4] significa "Todos los elementos de la lista contenidos entre la posicion 1 y 4"
+
+

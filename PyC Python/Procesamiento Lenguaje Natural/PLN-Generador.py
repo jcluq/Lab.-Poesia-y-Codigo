@@ -36,10 +36,10 @@ texto_procesado = procesador(texto)
     #Ahora tenemos un objeto llamado texto_procesado, el cual le ha asignado a cada palabra del texto una [tokenizacion]
     #Podemos valernos de una palabra aleatoria incluida en el tipo [tag] de cada token.
     #usamos la siguiente formula para crear el metodo correspondiente:
-        """
+"""
             def NOMBRE_METODO():
                 return random.choice([token.orth_ for token in texto_procesado if token.tag_ == 'TIPO DE TAG'])
-        """
+"""
     #NOMBRE_METODO = al nombre que queramos asignar para la palabra
     #TIPO DE TAG = Un tag que describa el tipo de palabra
     # la lista: de tipos :  

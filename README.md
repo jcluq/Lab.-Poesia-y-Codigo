@@ -33,7 +33,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
 5. **Verificamos que python este instalado**
 
-    Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
+    Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [verificar la instalacion.](#verificar)
 </details>
 <details>
 

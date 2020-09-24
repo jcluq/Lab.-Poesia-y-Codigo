@@ -47,16 +47,24 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
   Homebrew es un instalador de paquetes, el cual nos permite instalar software de repositorios publicos directamente desde la consola.
 
-  Primero verificamos si homebrew esta instalado. Abrimos la terminal y escribimos
+  Primero verificamos si homebrew esta instalado. Abrimos la terminal y escribimos:
 
       brew help
   
-  Si nos retorna un mensaje diciendo que el comando no existe, significa que Homebrew no esta instalado. Para instalar, escribimos esto en consola y presionamos ENTER.:
+  Si nos retorna un mensaje diciendo que el comando no existe:, significa que Homebrew no esta instalado. 
+<p align="center">
+  <img src=https://i.ibb.co/3MGM54p/brewnotfound.png>
+</p>
+
+  Para instalar, escribimos esto en consola y presionamos ENTER.:
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
   Nos preguntara si deseamos realizar esta instalacion, a lo que presionamos la letra <Y> para indicar Yes. Tambien nos solicitara permiso para instalar xCode, software que tambien debemos instalar:
 
+<p align="center">
+  <img src=https://i.ibb.co/YfgVg2H/Captura-de-pantalla-2020-09-23-a-la-s-2-52-00-p-m.png>
+</p>
 
 
   La instalacion demorara unos minutos, y sabremos que esta terminada cuando encontramos nuevamente nuestro nombre en la linea de comando.
@@ -66,7 +74,9 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
       brew help
 
   Ahora deberia aparecernos algo similar a esto:
-
+<p align="center">
+  <img src=https://i.ibb.co/9gFMNrs/Captura-de-pantalla-2020-09-23-a-la-s-3-08-19-p-m.png>
+</p>
 
 
 2) Instalar python 3

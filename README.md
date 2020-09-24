@@ -43,7 +43,7 @@ El sistema operativo de Apple cuenta con python 2.7 por defecto, sin embargo, es
 
 Existen distintas maneras de instalar python en MacOS, y hemos optado por la que es, en nuestra opinion, la mas correcta. 
 
-**1. Instalar Homebrew**
+1.  **Instalar Homebrew**
 
   Homebrew es un instalador de paquetes, el cual nos permite instalar software de repositorios publicos directamente desde la consola.
 
@@ -79,7 +79,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 </p>
 
 
-**2) Instalar python 3**
+2.   **Instalar python 3**
 
   Ahora podemos usar Homebrew para instalar python. En la consola, debemos escribir:
 
@@ -89,7 +89,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 
 
-**3) Configurar Python3 como el python predeterminado**
+3.  **Configurar Python3 como el python predeterminado**
 
   Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir en la consola:
 
@@ -106,7 +106,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 <details>
 
-**<summary>UBUNTU</summary>**:
+**<summary>UBUNTU</summary>**
             
 1. Abrimos la terminal, escribimos el siguiente codigo:
 

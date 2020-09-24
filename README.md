@@ -35,7 +35,9 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
     Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
 </details>
--   **MacOS**:
+<details>
+
+**<summary>MacOS</summary>**
 
 El sistema operativo de Apple cuenta con python 2.7 por defecto, sin embargo, esta version esta desactualizada y no nos sirve para algunos ejemplos y librerias que utilizaremos.
 
@@ -91,7 +93,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 
 
-
+</details>
 
 
 

@@ -12,28 +12,28 @@ Para cada sistema operativo, la instalacion de Python es diferente:
 
 <summary>**WINDOWS**</summary>
 
-  1.   **Descargamos el archivo ejecutable para windows:**
+1. **Descargamos el archivo ejecutable para windows:**
 
 
-          -    Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe (En caso de no estar seguro si tu    sistema operativo es de 64 o 32 bits, usar este)
+        -    Windows-64Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe (En caso de no estar seguro si tu    sistema operativo es de 64 o 32 bits, usar este)
 
-          -    Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe   
+        -    Windows-32Bits: https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe   
 
 
 
-  2.  **Ejecutamos el archivo .exe**
+2.  **Ejecutamos el archivo .exe**
 
-  3.   **Nos aseguramos de agregar python a PATH (Como se muestra en la siguiente imagen)**
+3.   **Nos aseguramos de agregar python a PATH (Como se muestra en la siguiente imagen)**
 
-  ![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
-              
-  4.   **Al finalizar la instalación desactivamos la restricción de longitud de los path**
+![Image of PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
+            
+4.   **Al finalizar la instalación desactivamos la restricción de longitud de los path**
 
-  ![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
+![Deshabilitar longitud](https://i.stack.imgur.com/r6XEh.jpg)
 
-  5. **Verificamos que python este instalado**
+5. **Verificamos que python este instalado**
 
-      Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
+    Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
 </details>
 -   **MacOS**:
 

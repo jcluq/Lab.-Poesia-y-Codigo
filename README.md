@@ -8,8 +8,9 @@
 
 
 Para cada sistema operativo, la instalacion de Python es diferente:
+<details>
 
--   **WINDOWS**:
+<summary>**WINDOWS**</summary>
 
     1.   **Descargamos el archivo ejecutable para windows:**
 
@@ -33,7 +34,7 @@ Para cada sistema operativo, la instalacion de Python es diferente:
     5. **Verificamos que python este instalado**
 
         Vamos al menu de Windows y tecleamos "cmd" y oprimimos ENTER para abrir la consola, y procedemos a [link verificar la instalacion.](#verificar)
-
+</details>
 -   **MacOS**:
 
 El sistema operativo de Apple cuenta con python 2.7 por defecto, sin embargo, esta version esta desactualizada y no nos sirve para algunos ejemplos y librerias que utilizaremos.
@@ -52,7 +53,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-  Nos preguntara si deseamos realizar esta instalacion, a lo que presionamos la letra Y para indicar Yes. Tambien nos solicitara permiso para instalar xCode, software que tambien debemos instalar:
+  Nos preguntara si deseamos realizar esta instalacion, a lo que presionamos la letra <Y> para indicar Yes. Tambien nos solicitara permiso para instalar xCode, software que tambien debemos instalar:
 
 
 
@@ -80,11 +81,11 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
   Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir dos codigos en consola:
 
-      ln -s -f /usr/local/bin/python3.7 /usr/local/bin/python
+      ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
 
   y
 
-      ln -s -f /usr/local/bin/pip3 /usr/local/bin/pip
+      ln -s -f /usr/local/bin/pip3.8 /usr/local/bin/pip
 
 
 

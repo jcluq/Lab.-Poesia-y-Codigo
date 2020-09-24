@@ -96,14 +96,15 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 </details>
 
 
+<details>
 
--   **UBUNTU**:
+-   **<summary>UBUNTU</summary>**:
             
     1. Abrimos la terminal, escribimos el siguiente codigo:
 
                 sudo apt install python3.8
 
-    
+</details>    
 
 ### 2) <a name="verificar">Verificamos la instalacion</a>
 

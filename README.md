@@ -10,7 +10,7 @@
 Para cada sistema operativo, la instalacion de Python es diferente:
 <details>
 
-<summary>**WINDOWS**</summary>
+**<summary>WINDOWS</summary>**
 
 1. **Descargamos el archivo ejecutable para windows:**
 

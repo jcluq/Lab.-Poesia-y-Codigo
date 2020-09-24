@@ -43,7 +43,7 @@ El sistema operativo de Apple cuenta con python 2.7 por defecto, sin embargo, es
 
 Existen distintas maneras de instalar python en MacOS, y hemos optado por la que es, en nuestra opinion, la mas correcta. 
 
-1) Instalar Homebrew
+**1. Instalar Homebrew**
 
   Homebrew es un instalador de paquetes, el cual nos permite instalar software de repositorios publicos directamente desde la consola.
 
@@ -79,7 +79,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 </p>
 
 
-2) Instalar python 3
+**2) Instalar python 3**
 
   Ahora podemos usar Homebrew para instalar python. En la consola, debemos escribir:
 
@@ -89,15 +89,13 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 
 
-3) Configurar Python3 como el python predeterminado
+**3) Configurar Python3 como el python predeterminado**
 
-  Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir dos codigos en consola:
+  Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir en la consola:
 
       ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
 
-  y
 
-      ln -s -f /usr/local/bin/pip3.8 /usr/local/bin/pip
 
 
 
@@ -110,9 +108,9 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 **<summary>UBUNTU</summary>**:
             
-    1. Abrimos la terminal, escribimos el siguiente codigo:
+1. Abrimos la terminal, escribimos el siguiente codigo:
 
-                sudo apt install python3.8
+            sudo apt install python3.8
 
 </details>    
 
@@ -140,7 +138,15 @@ Para los ejercicios y ejemplos, requerimos el uso de diferentes librerias desarr
 
         pip install wikipedia spacy tweepy
 
+* En caso de estar usando MacOs, debemos escribir:
+
+        pip3 install wikipedia spacy tweepy
+
 Al ejecutar este comando, una serie de confirmaciones apareceran en la consola, instalando las librerias. Cuando la linea de comando vuelva a mostrar nuestra linea de usuario, habra finalizado y ya tendremos las librerias instaladas.
+
+Adicionalmente, debemos instalar el corpus de Spacy, nuestra libreria de procesamiento de lenguaje natural:
+
+        python -m spacy download es_core_news_lg
 
 <sub>!!!  En caso de que exista algun tipo de error  (Texto Color Rojo) tomar pantallaso del inicio del texto rojo. Lo solucionaremos a su debido tiempo!</sub>
 

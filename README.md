@@ -95,8 +95,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
       ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
 
-  Cerramos la consola, y la abrimos nuevamente, y procedemos a [link verificar la instalacion.](#verificar) nuestra instalacion.
-
+  Cerramos la consola, y la abrimos nuevamente, y procedemos a [verificar la instalacion.](#verificar)
 
 
 
@@ -106,7 +105,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 <details>
 
-**<summary>UBUNTU</summary>**
+**<summary>LINUX/ UBUNTU</summary>**
             
 1. Abrimos la terminal, escribimos el siguiente codigo:
 
@@ -162,19 +161,38 @@ y descargaremos el instalador correspondiente a nuestro sistema operativo.
 
 Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
 
+#### Configuracion de Consola
+
+VSCode cuenta con una consola interna en la cual podemos ejecutar nuestro codigo. Debemos configurar VSCode para que nuestro codigo se ejecute en la carpeta en la cual tenemos nuestros archivos, esto, con la intencion de poder utilizar archivos que se encuentren en esta misma carpeta.
+
+Debemos abrir las configuraciones de usuario, presionando ctrl (o cmd) + ,
+
+En la barra de busqueda escribimos:
+
+      python.terminal
+
+Y habilitamos la casilla que dice : Python › Terminal: Execute In File Dir
+
+
+
+<p align="center">
+  <img src=https://i.ibb.co/T804tdm/python-terminal.png>
+</p>
+
+
 
 #### Extension de Python para VS
 
 La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
 de crear y leer codigo.
 
-Para instalar, haremos click en el boton de extensiones en la barra de navegacion de la parte izquierda.
-
-
-
-***imagen barra***
+Para instalar presionamos ctrl (o cmd) + shift + x
 
 Y buscaremos la extension Python, usualmente aparece entra las populares.
-En caso de no aparecer, buscarla manualmente
+En caso de no aparecer, buscarla manualmente.
+
+<p align="center">
+  <img src=https://i.ibb.co/W2VShBx/ext-python.png>
+</p>
 
 Hacemos click en instalar y listo.

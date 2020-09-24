@@ -53,7 +53,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
   
   Si nos retorna un mensaje diciendo que el comando no existe:, significa que Homebrew no esta instalado. 
 <p align="center">
-  <img src=https://i.ibb.co/3MGM54p/brewnotfound.png>
+  <img src=https://i.ibb.co/XtNVBL5/Captura-de-pantalla-2020-09-23-a-la-s-2-50-19-p-m.png>
 </p>
 
   Para instalar, escribimos esto en consola y presionamos ENTER.:
@@ -95,7 +95,7 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
       ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
 
-
+  Cerramos la consola, y la abrimos nuevamente, y procedemos a [link verificar la instalacion.](#verificar) nuestra instalacion.
 
 
 

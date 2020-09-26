@@ -151,6 +151,24 @@ y descargaremos el instalador correspondiente a nuestro sistema operativo.
 
 Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa para cerciorarnos que funcione correctamente.
 
+
+#### Extension de Python para VS
+
+La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
+de crear y leer codigo.
+
+Para instalar presionamos ctrl (o cmd) + shift + x
+
+Y buscaremos la extension Python, usualmente aparece entra las populares.
+En caso de no aparecer, buscarla manualmente.
+
+<p align="center">
+  <img src=https://i.ibb.co/W2VShBx/ext-python.png>
+</p>
+
+Hacemos click en instalar y listo.
+
+
 #### Configuracion de Consola
 
 VSCode cuenta con una consola interna en la cual podemos ejecutar nuestro codigo. Debemos configurar VSCode para que nuestro codigo se ejecute en la carpeta en la cual tenemos nuestros archivos, esto, con la intencion de poder utilizar archivos que se encuentren en esta misma carpeta.
@@ -168,21 +186,3 @@ Y habilitamos la casilla que dice : Python › Terminal: Execute In File Dir
 <p align="center">
   <img src=https://i.ibb.co/T804tdm/python-terminal.png>
 </p>
-
-
-
-#### Extension de Python para VS
-
-La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
-de crear y leer codigo.
-
-Para instalar presionamos ctrl (o cmd) + shift + x
-
-Y buscaremos la extension Python, usualmente aparece entra las populares.
-En caso de no aparecer, buscarla manualmente.
-
-<p align="center">
-  <img src=https://i.ibb.co/W2VShBx/ext-python.png>
-</p>
-
-Hacemos click en instalar y listo.

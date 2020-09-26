@@ -61,7 +61,7 @@ while contador < lineas:    #Creamos un bucle que se repita hasta que la variabl
     
     #Usamos print para visualizar nuestra frase. 
     # En este ejemplo se adiciono "Python" al inicio de la frase, prueba cambiando esta palabra.       
-    print(f'Python{frase}')
+    print(f'Rexx{frase}')
     
     #finalmente, como obtuvimos una frase, adicionamos +1 a nuestro contador, y nuevamente se vuelve a iterar.
     contador = contador + 1        

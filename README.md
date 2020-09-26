@@ -89,16 +89,6 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 
 
-3.  **Configurar Python3 como el python predeterminado**
-
-  Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir en la consola:
-
-      ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
-
-  Cerramos la consola, y la abrimos nuevamente, y procedemos a [verificar la instalacion.](#verificar)
-
-
-
 
 </details>
 

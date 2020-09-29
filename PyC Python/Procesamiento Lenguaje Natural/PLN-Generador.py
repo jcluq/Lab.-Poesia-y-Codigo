@@ -1,16 +1,7 @@
 #____ Generador de frases con PLN y tokens________________________
-#Antes de comenzar, asegurate de instalar el corpus.
-#Abrir la consola y escribe: 
-# 
-#
-#python -m spacy download es_core_news_md 
-#                   o
-#python -m spacy download es_core_news_lg
-#
 #
 #El programa esta basado en la libreria de procesamiento de lenguaje natural Spacy
 # https://spacy.io/usage
-
 
 
 import spacy   #importamos spacy
@@ -25,24 +16,35 @@ def leer_texto(texto):
     with open(texto, 'r',encoding="latin-1") as text:
         return text.read()
 
-    #creamos nuestro <procesador> con la funcion spacy.load y pasamos el nombre de nuestro corpus como parametro, !!!!procesador es un metodo!!!!!
-#procesador = spacy.load('es_core_news_lg')
 
-    #usamos el metodo leer_texto(), y asignamos el nombre del archivo que deseamos procesar, 
-    #el string resultante lo guardamos en la variable <texto>
 
-#texto = leer_texto("Sirena.txt")    
-    #usamos nuestro procesador y le asignamos el texto 
-texto_procesado = Doc(Vocab()).from_disk("texto_procesado")    
+#creamos nuestro <nlp> con la funcion spacy.load y pasamos el nombre de nuestro corpus como parametro
+
+"""
+nlp = spacy.load('es_core_news_lg')
+texto = leer_texto("Sirena.txt")  
+#usamos el metodo leer_texto(), y asignamos el nombre del archivo que deseamos procesar, 
+#el string resultante lo guardamos en la variable <texto>
+
 #texto_procesado.to_disk("texto_procesado")
-##procesador.to_disk("procesador")
+#procesador.to_disk("procesador")
+  
+
+"""  
+#usamos nuestro procesador y le asignamos el texto 
+#texto_procesado = nlp(texto)
+
+texto_procesado = Doc(Vocab()).from_disk("texto_procesado")    
+
 
     #Ahora tenemos un objeto llamado texto_procesado, el cual le ha asignado a cada palabra del texto una [tokenizacion]
     #Podemos valernos de una palabra aleatoria incluida en el tipo [tag] de cada token.
     #usamos la siguiente formula para crear el metodo correspondiente:
 """
             def NOMBRE_METODO():
-                return random.choice([token.orth_ for token in texto_procesado if token.tag_ == 'TIPO DE TAG'])
+                lista = [token.orth_ for token in texto_procesado if token.tag_ == 'TIPO DE TAG']
+                palabra = random.choice(lista)
+                return palabra
 """
     #NOMBRE_METODO = al nombre que queramos asignar para la palabra
     #TIPO DE TAG = Un tag que describa el tipo de palabra
@@ -67,15 +69,6 @@ def adverbio():
 def aux_plural_futuro():
     return random.choice([token.orth_ for token in texto_procesado if token.tag_ == 'AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin'])
 
-
-"""
-def det_masc():
-    return random.choice([token.orth_ for token in texto_procesado if token.tag_ == 'DET__Definite=Def|Gender=Masc|Number=Plur'])
-
-def det_fem():
-    return random.choice([token.orth_ for token in texto_procesado if token.tag_ == 'DET__Definite=Def|Gender=Fem|Number=Sing]'])
-
-"""
 
 
 for x in range(4):

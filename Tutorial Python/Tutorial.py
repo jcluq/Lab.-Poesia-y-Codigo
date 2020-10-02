@@ -1,6 +1,16 @@
+
+
+
+
+
+
+
+
+
+
 ####################Tutorial de Python#######################
 ########
-##Esta guia fue creada por Juan Camilo Luque
+##Esta guia fue creada por Lasintetica para el laboratorio de Poesia y Codigo
 
 
 ###En python, comentamos usando un numeral o hash antes del texto que deseamos comentar
@@ -310,9 +320,7 @@ for elemento in lista:  #La formula que utilizamos es for <variable> in range(<c
 """
 
 
-########## Metodos! #############
-
-### podemos defiinir nuestros propios metodos.
-### los metodos funcionan como formulas, con las cuales podemos definir un conjunto de instrucciones:
-
-
+### PEND 
+### METODOS
+### CLASES
+### SEPARAR ESTA GUIA EN DIFERENTES ARCHIVOS!!!!!!!!

@@ -89,13 +89,27 @@ Existen distintas maneras de instalar python en MacOS, y hemos optado por la que
 
 
 
+<<<<<<< HEAD
+=======
+3.  **Configurar Python3 como el python predeterminado**
+
+  Para configurar Python3 como el predeterminado de nuestro mac, debemos escribir en la consola:
+
+      ln -s -f /usr/local/bin/python3.8 /usr/local/bin/python
+
+  Cerramos la consola, y la abrimos nuevamente, y procedemos a [link verificar la instalacion.](#verificar) nuestra instalacion.
+
+
+
+
+>>>>>>> parent of e18c5d4... Update README.md
 
 </details>
 
 
 <details>
 
-**<summary>LINUX/ UBUNTU</summary>**
+**<summary>UBUNTU</summary>**
             
 1. Abrimos la terminal, escribimos el siguiente codigo:
 
@@ -157,14 +171,14 @@ Seguimos las instrucciones del instalador y al finalizar ejecutamos el programa 
 La extension de python nos permitira programar de manera mas fluida, pues crea identificadores de objetos que nos seran utiles a la hora 
 de crear y leer codigo.
 
-Para instalar presionamos ctrl (o cmd) + shift + x
+Para instalar, haremos click en el boton de extensiones en la barra de navegacion de la parte izquierda.
+
+
+
+***imagen barra***
 
 Y buscaremos la extension Python, usualmente aparece entra las populares.
-En caso de no aparecer, buscarla manualmente.
-
-<p align="center">
-  <img src=https://i.ibb.co/W2VShBx/ext-python.png>
-</p>
+En caso de no aparecer, buscarla manualmente
 
 Hacemos click en instalar y listo.
 
